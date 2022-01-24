@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/lib/jquery.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/lib/openlayers.js"></script>
+		<script src="js/resize.js"></script>
+		<script src="js/function.js" defer></script>
+		<script src="js/ApiCall.js" defer></script>
+		<script src="js/bot.js" defer></script>
+		<script src="js/module/horloge.js" defer></script>
+		<script src="js/module/toDoList.js" defer></script>
+		<script src="js/module/temperature.js" defer></script>
+		<script src="js/module/map.js" defer></script>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		<title>Nuit de l'info</title>
+	</head>
+	<body>
+		<noscript>Il faut obligatoirement activer Javascript pour utiliser cette application</noscript>
+
+
+		<nav class='navbar bg-dark navbar-dark col-2 draggable' id='nav' style='top:10px;left:10px;'>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+    <span class="navbar-toggler-icon"></span>
+  	</button> <!-- la liste des modules -->
+  			<img src="data/chouette.png" alt="Cinque Terre" width="25%">
+  	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class='navbar-nav'>
+				<li class="mod_list nav-item" id='temp'><a href="#" class="nav-link">Temperature</a></li>
+				<li class="mod_list nav-item" id='todo'><a href="#" class="nav-link">TodoList</a></li>
+				<li class="mod_list nav-item" id='rap'><a href="#" class="nav-link">RappelsVitaux</a></li>
+				<li class="mod_list nav-item" id="bous"><a href="#" class="nav-link">Boussole</a></li>
+				<li class="mod_list nav-item" id='map'><a href="#" class="nav-link">Map</a></li>
+				<li class="mod_list nav-item" id='retour'><a href="#" class="nav-link">RetourBase</a></li>
+				<li class="mod_list nav-item" id='horl'><a href="#" class="nav-link">Horloge</a></li>
+				<li class="mod_list nav-item" id='bot'><a href="#" class="nav-link">Chouette Bot</a></li>
+
+			</ul>
+			</div>
+		</nav>
+
+
+
+
+		<script type="text/javascript" src="js/lib/jquery.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-ui.js"></script>
+		<script src="js/draggable.js"></script>
+		<script src="js/function.js"></script>
+		<script src="js/ready.js"></script>
+
+	</body>
+</html>
